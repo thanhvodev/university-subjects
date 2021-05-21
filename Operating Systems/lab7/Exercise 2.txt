@@ -1,0 +1,23 @@
+First fit:
+-Advantages:
+ +Simple
+ +Tends to produce larger free blocks toward the end of the addess space
+-Disadvantages:
+ +Fragmentation
+
+Best fit:
+-Advantages:
+ +Works well when most allocation are of small size
+ +Reletively simple
+-Disadvantages:
+ +External fragmentation
+ +Slow allocation
+ +Slow deallocation
+ +Tends to produce many useless tiny fragments
+
+Worst fit:
+-Advantages:
+ +Works best if allocations are of medium sizes
+-Disadvantages:
+ +External fragmentation
+ +Tends to break large free blocks such that large partitions cannot be allocated
