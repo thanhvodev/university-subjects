@@ -1,0 +1,8 @@
+Problem 1:
+Ví dụ vợ và chồng cùng rút và gửi vào tài khoản 100 đô, vợ rút 50 đô và chồng gửi 50 đô cùng lúc thì có các khả năng sau:
+-Tài khoản có 100 đô
+-Tài khoản có 150 đô
+-Tài khoản có 50 đô
+Để chính xác thì ngân hàng nên cho phép một tác vụ một lúc.
+Problem 2:
+Với mutex lock thì kết quả chính xác hơn trong trường hợp sử dụng shared variable.
